@@ -1,0 +1,18 @@
+"use strict";
+let item = "socks";
+console.log("item == socks should be true => ", item == "socks");
+console.log("item != socks should be false => ", item != "socks");
+console.log("item == sneakers should be false => ", item == "sneakers");
+console.log("item != sneakers should be true => ", item != "sneakers");
+console.log("item == SOCKS should be false => ", item == "SOCKS");
+let count = 7;
+console.log("count == 7 should be true => ", count == 7);
+console.log("count != 7 should be false => ", count != 7);
+console.log("count < 5 should be false => ", count < 5);
+console.log("count > 5 should be true => ", count > 5);
+console.log("count >= 7 should be true => ", count >= 7);
+console.log("count <= 7 should be true => ", count <= 7);
+console.log("count > 5 && count == 7 should be true => ", count > 5 && count == 7);
+console.log("count < 5 && count > 7 should be false => ", count > 5 && count > 7);
+console.log("count < 5 || count > 7 should be false => ", count < 5 || count > 7);
+console.log("count > 5 || count == 7 should be true => ", count > 5 || count == 7);
